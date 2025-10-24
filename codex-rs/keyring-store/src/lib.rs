@@ -61,7 +61,7 @@ impl KeyringStore for DefaultKeyringStore {
     }
 }
 
-pub mod testing {
+pub mod tests {
     use super::CredentialStoreError;
     use super::KeyringStore;
     use keyring::Error as KeyringError;

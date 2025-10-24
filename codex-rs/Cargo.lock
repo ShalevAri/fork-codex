@@ -1078,6 +1078,7 @@ dependencies = [
  "futures",
  "http",
  "indexmap 2.10.0",
+ "keyring",
  "landlock",
  "libc",
  "maplit",

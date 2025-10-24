@@ -544,7 +544,7 @@ mod tests {
     use std::sync::PoisonError;
     use tempfile::tempdir;
 
-    use codex_keyring_store::testing::MockKeyringStore;
+    use codex_keyring_store::tests::MockKeyringStore;
 
     struct TempCodexHome {
         _guard: MutexGuard<'static, ()>,
